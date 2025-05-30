@@ -2,7 +2,7 @@
 // (a + b) % mod
 // (a - b + mod) % mod （avoid for negative）
 // (a * b) % mod
-//only use for (a/b) % mod of more highclass function
+//only use for (a/b) % mod or more highclass function
 
 long long modInverse(long long a, long long mod) {
     long long res = 1;              // Initialize result to 1
